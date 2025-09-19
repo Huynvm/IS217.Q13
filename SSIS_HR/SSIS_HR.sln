@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "SSIS_HR", "SSIS_HR\SSIS_HR.dtproj", "{3FC6C126-7E5E-440F-5C17-5B9453EA938D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FC6C126-7E5E-440F-5C17-5B9453EA938D}.Development|Default.ActiveCfg = Development
+		{3FC6C126-7E5E-440F-5C17-5B9453EA938D}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9E607B7-7F47-46FA-BA5E-B616F1E0FED4}
+	EndGlobalSection
+EndGlobal
