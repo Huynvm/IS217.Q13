@@ -11,8 +11,8 @@
   DTS:LocaleID="1066"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="46"
-  DTS:VersionGUID="{869ABA92-20D5-4F22-AF04-BB48B12F0B1F}">
+  DTS:VersionBuild="64"
+  DTS:VersionGUID="{2DAC8001-E8B5-41EC-82C9-CD840D1C2EBA}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -170,7 +170,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Employee_ID"
-              DTS:DTSID="{2481DCFD-6295-4BE8-BA44-07CB8F739634}"
+              DTS:DTSID="{BE730D5D-760B-4929-99CB-588D1BE170E6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -179,7 +179,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Full_Name"
-              DTS:DTSID="{F55580EB-F483-4C37-906F-12442B34F3DC}"
+              DTS:DTSID="{54AD1A2B-9C13-4AC3-92B0-1AD2864B7B98}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -188,7 +188,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Department"
-              DTS:DTSID="{CBC8E628-997B-4994-9590-F9DD41398070}"
+              DTS:DTSID="{089CCD73-B873-4828-BE3B-2723ACA9AFB7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -197,7 +197,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Job_Title"
-              DTS:DTSID="{3CED0D69-158F-4EB1-B562-A6AACFC51375}"
+              DTS:DTSID="{D4CB1534-B6AB-403F-BFE3-A86934B0E198}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -205,7 +205,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="Hire_Date"
-              DTS:DTSID="{4F9A2571-7592-46F5-B43B-BBB7699DC47E}"
+              DTS:DTSID="{47C4E1B7-57E7-4422-A870-E751837CC929}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -214,7 +214,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Location"
-              DTS:DTSID="{6A5EA5E3-C810-4FCF-8CF5-FAAA108778D4}"
+              DTS:DTSID="{FDE47800-7687-4B5B-ADF6-54CC2D69875E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -222,7 +222,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="Performance_Rating"
-              DTS:DTSID="{F3AADFEB-7DF6-4266-B539-3A610C8C8ECF}"
+              DTS:DTSID="{480A1A83-88E6-460A-9669-1AA977E6ED34}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -231,7 +231,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Experience_Years"
-              DTS:DTSID="{114BA123-7184-421C-A253-58596D127300}"
+              DTS:DTSID="{ECB6A503-E1D6-4518-9EDD-E4B8563F2BF4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -240,7 +240,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Status"
-              DTS:DTSID="{E7C8A0BC-E4B2-44BE-B4C6-91A1C65ECF39}"
+              DTS:DTSID="{CD49F0D8-01BE-4CBA-A0E3-94D917BD0D1F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -249,7 +249,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Work_Mode"
-              DTS:DTSID="{CC8CAA04-1FFB-4BE0-8D2A-6C15338CCC65}"
+              DTS:DTSID="{D77D8BEB-A150-4F0A-949B-8EC4D59A2D82}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -257,10 +257,34 @@
               DTS:DataType="5"
               DTS:TextQualified="True"
               DTS:ObjectName="Salary_INR"
-              DTS:DTSID="{583568AE-B12B-4307-AA8B-72A3186A3293}"
+              DTS:DTSID="{FBE7EE5D-D260-4986-85FF-F3EF9E7346AF}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[HUYNGUYEN.HR_Data]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{49B16A31-FC44-440E-B585-220553AD84A8}"
+      DTS:ObjectName="HUYNGUYEN.HR_Data">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=HUYNGUYEN;Initial Catalog=HR_Data;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package-{49B16A31-FC44-440E-B585-220553AD84A8}HUYNGUYEN.HR_Data;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[HUYNGUYEN.HR_Data 1]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{DA7FF53D-B5C8-498C-875A-1C4BFC689D1C}"
+      DTS:ObjectName="HUYNGUYEN.HR_Data 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=HUYNGUYEN;Initial Catalog=HR_Data;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package-{DA7FF53D-B5C8-498C-875A-1C4BFC689D1C}HUYNGUYEN.HR_Data 1;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -285,6 +309,18 @@
           DTS:ConnectionString="Data Source=localhost;Initial Catalog=HR_Data;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package-{B65359DC-B3EB-4EEF-946D-38A8CC9D38E9}localhost.HR_Data1;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost.HR_Data1 1]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{090307D3-223E-4A39-A182-8870A663E2CB}"
+      DTS:ObjectName="localhost.HR_Data1 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=HR_Data;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package-{090307D3-223E-4A39-A182-8870A663E2CB}localhost.HR_Data1 1;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
   <DTS:Variables />
   <DTS:Executables>
@@ -292,7 +328,6 @@
       DTS:refId="Package\DIM_Date"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{D38A0160-D6A2-4D1F-B8FB-B6168D4E390A}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -937,7 +972,6 @@
       DTS:refId="Package\DIM_Department"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{F82016FA-E113-4D12-ADB6-EA6BD682160D}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -1276,7 +1310,6 @@
       DTS:refId="Package\DIM_Employee"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{C79AFEA5-4573-460C-A83A-21E71ABDDB3E}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -1683,7 +1716,6 @@
       DTS:refId="Package\DIM_JobTitle"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{E5769DEC-5FBA-48C0-A8C0-FF2FB371EDB6}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -3066,7 +3098,6 @@
       DTS:refId="Package\DIM_Status"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{51EEA58E-E44A-4FFD-AFC0-B1BAC75E75B4}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -3405,7 +3436,6 @@
       DTS:refId="Package\DIM_WorkMode"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{B854859F-EA70-4DF9-B358-E02A58E3F7B1}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -3741,10 +3771,26 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
+      DTS:refId="Package\Execute SQL Task"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{3267B205-1EEF-4BC6-AF4F-30FC342AEE07}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Execute SQL Task"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{B65359DC-B3EB-4EEF-946D-38A8CC9D38E9}"
+          SQLTask:SqlStatementSource="--XÓA DỮ LIỆU TỪ BẢNG FACT TRƯỚC TIÊN&#xA;DELETE FROM [Fact_HR];&#xA;PRINT 'Đã xóa dữ liệu từ Fact_HR.';&#xA;&#xA;-- Xóa Dim_Employee (Bảng này không có IDENTITY nên không cần reset)&#xA;DELETE FROM [Dim_Employee];&#xA;PRINT 'Đã xóa dữ liệu từ Dim_Employee.';&#xA;&#xA;-- Xóa và reset Dim_Date&#xA;DELETE FROM [Dim_Date];&#xA;DBCC CHECKIDENT ('[Dim_Date]', RESEED, 0);&#xA;PRINT 'Đã xóa và reset Dim_Date.';&#xA;&#xA;-- Xóa và reset Dim_Department&#xA;DELETE FROM [Dim_Department];&#xA;DBCC CHECKIDENT ('[Dim_Department]', RESEED, 0);&#xA;PRINT 'Đã xóa và reset Dim_Department.';&#xA;&#xA;-- Xóa và reset Dim_JobTitle&#xA;DELETE FROM [Dim_JobTitle];&#xA;DBCC CHECKIDENT ('[Dim_JobTitle]', RESEED, 0);&#xA;PRINT 'Đã xóa và reset Dim_JobTitle.';&#xA;&#xA;-- Xóa và reset Dim_Location&#xA;DELETE FROM [Dim_Location];&#xA;DBCC CHECKIDENT ('[Dim_Location]', RESEED, 0);&#xA;PRINT 'Đã xóa và reset Dim_Location.';&#xA;&#xA;-- Xóa và reset Dim_Status&#xA;DELETE FROM [Dim_Status];&#xA;DBCC CHECKIDENT ('[Dim_Status]', RESEED, 0);&#xA;PRINT 'Đã xóa và reset Dim_Status.';&#xA;&#xA;-- Xóa và reset Dim_WorkMode&#xA;DELETE FROM [Dim_WorkMode];&#xA;DBCC CHECKIDENT ('[Dim_WorkMode]', RESEED, 0);&#xA;PRINT 'Đã xóa và reset Dim_WorkMode.';&#xA;&#xA;PRINT 'HOÀN TẤT! Tất cả dữ liệu đã được xóa và các bảng đã sẵn sàng để tải dữ liệu mới.';" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\Fact_HR"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{2D63BEC5-AEB6-485B-9AEB-737B709D8345}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -6629,6 +6675,14 @@ where [refTable].[WorkModeName] = ?</property>
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 6"
       DTS:To="Package\Fact_HR" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 7]"
+      DTS:CreationName=""
+      DTS:DTSID="{47B20CDC-9AE3-4646-AE29-215679ED6D84}"
+      DTS:From="Package\Execute SQL Task"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 7"
+      DTS:To="Package\DIM_Location" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -6641,53 +6695,53 @@ where [refTable].[WorkModeName] = ?</property>
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="124.8,41.6"
+          Size="136.8,41.6"
           Id="Package\DIM_Date"
-          TopLeft="351.666647452448,222.733331784474" />
+          TopLeft="516.887735424534,299.950418551524" />
         <NodeLayout
-          Size="157.6,41.6"
+          Size="168,41.6"
           Id="Package\DIM_Department"
-          TopLeft="79.1666623411908,223.599998445114" />
+          TopLeft="234.387750291987,301.581791093847" />
         <NodeLayout
           Size="149.6,41.6"
           Id="Package\DIM_Employee"
-          TopLeft="79.9999956289929,129.133332435356" />
+          TopLeft="245.221083601077,202.526889793993" />
         <NodeLayout
           Size="140,41.6"
           Id="Package\DIM_JobTitle"
-          TopLeft="342.499981286626,130.866665756636" />
+          TopLeft="507.721069258712,208.083752523686" />
         <NodeLayout
           Size="142.4,41.6"
           Id="Package\DIM_Location"
-          TopLeft="82.4999954923989,32.0666664436791" />
+          TopLeft="247.721083464483,109.283753210729" />
         <NodeLayout
           Size="132.8,41.6"
           Id="Package\DIM_Status"
-          TopLeft="89.166661794815,325.866664400631" />
+          TopLeft="254.387749766899,403.083751167681" />
         <NodeLayout
           Size="153.6,41.6"
           Id="Package\DIM_WorkMode"
-          TopLeft="343.333314574428,327.59999772191" />
+          TopLeft="508.554402546513,404.81708448896" />
         <NodeLayout
           Size="119.2,41.6"
           Id="Package\Fact_HR"
-          TopLeft="581.666634885803,134.333332399196" />
+          TopLeft="746.887722857889,211.550419166246" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="154.249995560696,73.6666664436791">
+          TopLeft="319.47108353278,150.883753210729">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,55.4666659916772"
+              EndConnector="0,51.6431365832637"
               Start="0,0"
-              End="0,47.9666659916772">
+              End="0,44.1431365832637">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,47.9666659916772" />
+                    End="0,44.1431365832637" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6698,18 +6752,18 @@ where [refTable].[WorkModeName] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="156.383328985092,170.733332435356">
+          TopLeft="319.204416946532,244.126889793993">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,52.8666660097573"
+              EndConnector="0,57.454901299854"
               Start="0,0"
-              End="0,45.3666660097573">
+              End="0,49.954901299854">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,45.3666660097573" />
+                    End="0,49.954901299854" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6720,18 +6774,18 @@ where [refTable].[WorkModeName] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="156.766662068003,265.199998445114">
+          TopLeft="319.587750029443,343.181791093847">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60.6666659555168"
+              EndConnector="0,59.9019600738343"
               Start="0,0"
-              End="0,53.1666659555168">
+              End="0,52.4019600738343">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,53.1666659555168" />
+                    End="0,52.4019600738343" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6742,7 +6796,7 @@ where [refTable].[WorkModeName] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
-          TopLeft="221.966661794815,347.533331061271">
+          TopLeft="387.187749766899,424.750417828321">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -6764,18 +6818,18 @@ where [refTable].[WorkModeName] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
-          TopLeft="417.099981013438,327.59999772191">
+          TopLeft="585.321068985524,404.81708448896">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,-63.266665937437"
+              EndConnector="0,-63.266665937436"
               Start="0,0"
-              End="0,-55.766665937437">
+              End="0,-55.766665937436">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-55.766665937437" />
+                    End="0,-55.766665937436" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6786,18 +6840,18 @@ where [refTable].[WorkModeName] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 5]"
-          TopLeft="413.283314369537,222.733331784474">
+          TopLeft="581.504402341623,299.950418551524">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,-50.2666660278373"
+              EndConnector="0,-50.266666027838"
               Start="0,0"
-              End="0,-42.7666660278373">
+              End="0,-42.766666027838">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-42.7666660278373" />
+                    End="0,-42.766666027838" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6808,7 +6862,7 @@ where [refTable].[WorkModeName] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 6]"
-          TopLeft="482.499981286626,153.399999077916">
+          TopLeft="647.721069258713,230.617085844966">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -6820,6 +6874,32 @@ where [refTable].[WorkModeName] = ?</property>
                   Capacity="5">
                   <mssgle:LineSegment
                     End="91.6666535991767,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="162.4,41.6"
+          Id="Package\Execute SQL Task"
+          TopLeft="9.18367348893737,107.058823435571" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 7]"
+          TopLeft="171.583673488937,128.97128832315">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="76.1374099755456,0"
+              Start="0,0"
+              End="68.6374099755456,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="68.6374099755456,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7015,7 +7095,7 @@ where [refTable].[WorkModeName] = ?</property>
     design-time-name="Package\DIM_Employee">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="114.4,41.6"
           Id="Package\DIM_Employee\Dataset"
@@ -7047,9 +7127,7 @@ where [refTable].[WorkModeName] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -7071,9 +7149,7 @@ where [refTable].[WorkModeName] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -7419,7 +7495,7 @@ where [refTable].[WorkModeName] = ?</property>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="188.8,41.6"
+          Size="196.8,41.6"
           Id="Package\Fact_HR\Lookup_Department_ID"
           TopLeft="48.9999992698432,293.999995619059" />
         <NodeLayout
@@ -7431,7 +7507,7 @@ where [refTable].[WorkModeName] = ?</property>
           Id="Package\Fact_HR\Derived Column"
           TopLeft="323.999995172024,290.999995663762" />
         <NodeLayout
-          Size="175.2,41.6"
+          Size="192.8,41.6"
           Id="Package\Fact_HR\Lookup_HireDate_ID"
           TopLeft="506.999992445111,89.9999986588955" />
         <NodeLayout
@@ -7459,7 +7535,7 @@ where [refTable].[WorkModeName] = ?</property>
           Id="Package\Fact_HR\Data Conversion"
           TopLeft="318.99999524653,388.999994501471" />
         <NodeLayout
-          Size="173.6,41.6"
+          Size="188.8,41.6"
           Id="Package\Fact_HR\Lookup_Location_ID"
           TopLeft="555.999991714954,292.99999563396" />
         <NodeLayout
@@ -7492,66 +7568,66 @@ where [refTable].[WorkModeName] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Fact_HR.Paths[Lookup Match Output5]"
-          TopLeft="642.799991431832,334.59999563396">
+          TopLeft="646.599991431832,334.59999563396">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,57.3999985247851"
+              EndConnector="0,57.399998524785"
               Start="0,0"
-              End="0,49.8999985247851">
+              End="0,49.899998524785">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,49.8999985247851" />
+                    End="0,49.899998524785" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,19.1453117623926,96.3827734375,11.609375"
+              BoundingBox="-48.19138671875,19.1453117623925,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Fact_HR.Paths[Lookup Match Output4]"
-          TopLeft="237.799999269843,313.29999564141">
+          TopLeft="245.799999269843,313.299995641411">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="86.1999959021806,0"
+              EndConnector="78.1999959021808,0"
               Start="0,0"
-              End="78.6999959021806,0">
+              End="70.6999959021808,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="78.6999959021806,0" />
+                    End="70.6999959021808,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-8.8413887676597,5,96.3827734375,11.609375"
+              BoundingBox="-12.8413887676596,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Fact_HR.Paths[Lookup Match Output3]"
-          TopLeft="141.49999923259,235.599997109175">
+          TopLeft="143.49999923259,235.599997109175">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,58.3999985098839"
+              EndConnector="0,58.399998509884"
               Start="0,0"
-              End="0,50.8999985098839">
+              End="0,50.899998509884">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,50.8999985098839" />
+                    End="0,50.899998509884" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7612,25 +7688,25 @@ where [refTable].[WorkModeName] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Fact_HR.Paths[Lookup Match Output]"
-          TopLeft="595.299992392957,131.599998658896">
+          TopLeft="599.699992392957,131.599998658896">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,63.3999984353781"
+              EndConnector="0,63.3999984353785"
               Start="0,0"
-              End="0,55.8999984353781">
+              End="0,55.8999984353785">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,55.8999984353781" />
+                    End="0,55.8999984353785" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,22.145311717689,96.3827734375,11.609375"
+              BoundingBox="-48.19138671875,22.1453117176892,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -7664,14 +7740,14 @@ where [refTable].[WorkModeName] = ?</property>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="79.1999965429306,0"
+              EndConnector="79.19999654293,0"
               Start="0,0"
-              End="71.6999965429306,0">
+              End="71.69999654293,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="71.6999965429306,0" />
+                    End="71.69999654293,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7688,14 +7764,14 @@ where [refTable].[WorkModeName] = ?</property>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="87.7999968558549,0"
+              EndConnector="87.7999968558551,0"
               Start="0,0"
-              End="80.2999968558549,0">
+              End="80.2999968558551,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="80.2999968558549,0" />
+                    End="80.2999968558551,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
