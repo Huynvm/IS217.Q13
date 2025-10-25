@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UIT HK5\\OLAP\\SSAS_Final\\SSAS_HR_DT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4C88088B-E118-1D0B-1421-6D5383100CF6}|SSAS_HR_DT\\SSAS_HR_DT.dwproj|D:\\UIT HK5\\OLAP\\SSAS_Final\\SSAS_HR_DT\\SSAS_HR_DT\\HR Data.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{4C88088B-E118-1D0B-1421-6D5383100CF6}|SSAS_HR_DT\\SSAS_HR_DT.dwproj|solutionrelative:SSAS_HR_DT\\HR Data.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C88088B-E118-1D0B-1421-6D5383100CF6}|SSAS_HR_DT\\SSAS_HR_DT.dwproj|D:\\UIT HK5\\OLAP\\SSAS_Final\\SSAS_HR_DT\\SSAS_HR_DT\\Dim Date.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{4C88088B-E118-1D0B-1421-6D5383100CF6}|SSAS_HR_DT\\SSAS_HR_DT.dwproj|solutionrelative:SSAS_HR_DT\\Dim Date.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C88088B-E118-1D0B-1421-6D5383100CF6}|SSAS_HR_DT\\SSAS_HR_DT.dwproj|D:\\UIT HK5\\OLAP\\SSAS_Final\\SSAS_HR_DT\\SSAS_HR_DT\\HR Data.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{4C88088B-E118-1D0B-1421-6D5383100CF6}|SSAS_HR_DT\\SSAS_HR_DT.dwproj|solutionrelative:SSAS_HR_DT\\HR Data.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C88088B-E118-1D0B-1421-6D5383100CF6}|SSAS_HR_DT\\SSAS_HR_DT.dwproj|D:\\UIT HK5\\OLAP\\SSAS_Final\\SSAS_HR_DT\\SSAS_HR_DT\\Dim Location.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{4C88088B-E118-1D0B-1421-6D5383100CF6}|SSAS_HR_DT\\SSAS_HR_DT.dwproj|solutionrelative:SSAS_HR_DT\\Dim Location.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C88088B-E118-1D0B-1421-6D5383100CF6}|SSAS_HR_DT\\SSAS_HR_DT.dwproj|D:\\UIT HK5\\OLAP\\SSAS_Final\\SSAS_HR_DT\\SSAS_HR_DT\\Dim Status.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{4C88088B-E118-1D0B-1421-6D5383100CF6}|SSAS_HR_DT\\SSAS_HR_DT.dwproj|solutionrelative:SSAS_HR_DT\\Dim Status.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C88088B-E118-1D0B-1421-6D5383100CF6}|SSAS_HR_DT\\SSAS_HR_DT.dwproj|D:\\UIT HK5\\OLAP\\SSAS_Final\\SSAS_HR_DT\\SSAS_HR_DT\\Dim Employee.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{4C88088B-E118-1D0B-1421-6D5383100CF6}|SSAS_HR_DT\\SSAS_HR_DT.dwproj|solutionrelative:SSAS_HR_DT\\Dim Employee.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C88088B-E118-1D0B-1421-6D5383100CF6}|SSAS_HR_DT\\SSAS_HR_DT.dwproj|D:\\UIT HK5\\OLAP\\SSAS_Final\\SSAS_HR_DT\\SSAS_HR_DT\\Dim Work Mode.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{4C88088B-E118-1D0B-1421-6D5383100CF6}|SSAS_HR_DT\\SSAS_HR_DT.dwproj|solutionrelative:SSAS_HR_DT\\Dim Work Mode.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C88088B-E118-1D0B-1421-6D5383100CF6}|SSAS_HR_DT\\SSAS_HR_DT.dwproj|D:\\UIT HK5\\OLAP\\SSAS_Final\\SSAS_HR_DT\\SSAS_HR_DT\\Dim Job Title.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{4C88088B-E118-1D0B-1421-6D5383100CF6}|SSAS_HR_DT\\SSAS_HR_DT.dwproj|solutionrelative:SSAS_HR_DT\\Dim Job Title.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C88088B-E118-1D0B-1421-6D5383100CF6}|SSAS_HR_DT\\SSAS_HR_DT.dwproj|D:\\UIT HK5\\OLAP\\SSAS_Final\\SSAS_HR_DT\\SSAS_HR_DT\\Dim Department.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{4C88088B-E118-1D0B-1421-6D5383100CF6}|SSAS_HR_DT\\SSAS_HR_DT.dwproj|solutionrelative:SSAS_HR_DT\\Dim Department.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dim Location.dim [Design]",
+              "DocumentMoniker": "D:\\UIT HK5\\OLAP\\SSAS_Final\\SSAS_HR_DT\\SSAS_HR_DT\\Dim Location.dim",
+              "RelativeDocumentMoniker": "SSAS_HR_DT\\Dim Location.dim",
+              "ToolTip": "D:\\UIT HK5\\OLAP\\SSAS_Final\\SSAS_HR_DT\\SSAS_HR_DT\\Dim Location.dim [Design]",
+              "RelativeToolTip": "SSAS_HR_DT\\Dim Location.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-19T08:18:22.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dim Date.dim [Design]",
+              "DocumentMoniker": "D:\\UIT HK5\\OLAP\\SSAS_Final\\SSAS_HR_DT\\SSAS_HR_DT\\Dim Date.dim",
+              "RelativeDocumentMoniker": "SSAS_HR_DT\\Dim Date.dim",
+              "ToolTip": "D:\\UIT HK5\\OLAP\\SSAS_Final\\SSAS_HR_DT\\SSAS_HR_DT\\Dim Date.dim [Design]",
+              "RelativeToolTip": "SSAS_HR_DT\\Dim Date.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-19T08:17:35.99Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dim Employee.dim [Design]",
+              "DocumentMoniker": "D:\\UIT HK5\\OLAP\\SSAS_Final\\SSAS_HR_DT\\SSAS_HR_DT\\Dim Employee.dim",
+              "RelativeDocumentMoniker": "SSAS_HR_DT\\Dim Employee.dim",
+              "ToolTip": "D:\\UIT HK5\\OLAP\\SSAS_Final\\SSAS_HR_DT\\SSAS_HR_DT\\Dim Employee.dim [Design]",
+              "RelativeToolTip": "SSAS_HR_DT\\Dim Employee.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-19T08:18:01.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HR Data.cube [Design]",
+              "DocumentMoniker": "D:\\UIT HK5\\OLAP\\SSAS_Final\\SSAS_HR_DT\\SSAS_HR_DT\\HR Data.cube",
+              "RelativeDocumentMoniker": "SSAS_HR_DT\\HR Data.cube",
+              "ToolTip": "D:\\UIT HK5\\OLAP\\SSAS_Final\\SSAS_HR_DT\\SSAS_HR_DT\\HR Data.cube [Design]",
+              "RelativeToolTip": "SSAS_HR_DT\\HR Data.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-19T08:19:48.417Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HR Data.dsv [Design]",
+              "DocumentMoniker": "D:\\UIT HK5\\OLAP\\SSAS_Final\\SSAS_HR_DT\\SSAS_HR_DT\\HR Data.dsv",
+              "RelativeDocumentMoniker": "SSAS_HR_DT\\HR Data.dsv",
+              "ToolTip": "D:\\UIT HK5\\OLAP\\SSAS_Final\\SSAS_HR_DT\\SSAS_HR_DT\\HR Data.dsv [Design]",
+              "RelativeToolTip": "SSAS_HR_DT\\HR Data.dsv [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-19T08:16:39.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dim Status.dim [Design]",
+              "DocumentMoniker": "D:\\UIT HK5\\OLAP\\SSAS_Final\\SSAS_HR_DT\\SSAS_HR_DT\\Dim Status.dim",
+              "RelativeDocumentMoniker": "SSAS_HR_DT\\Dim Status.dim",
+              "ToolTip": "D:\\UIT HK5\\OLAP\\SSAS_Final\\SSAS_HR_DT\\SSAS_HR_DT\\Dim Status.dim [Design]",
+              "RelativeToolTip": "SSAS_HR_DT\\Dim Status.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-19T08:18:34.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dim Work Mode.dim [Design]",
+              "DocumentMoniker": "D:\\UIT HK5\\OLAP\\SSAS_Final\\SSAS_HR_DT\\SSAS_HR_DT\\Dim Work Mode.dim",
+              "RelativeDocumentMoniker": "SSAS_HR_DT\\Dim Work Mode.dim",
+              "ToolTip": "D:\\UIT HK5\\OLAP\\SSAS_Final\\SSAS_HR_DT\\SSAS_HR_DT\\Dim Work Mode.dim [Design]",
+              "RelativeToolTip": "SSAS_HR_DT\\Dim Work Mode.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-19T08:18:43.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dim Job Title.dim [Design]",
+              "DocumentMoniker": "D:\\UIT HK5\\OLAP\\SSAS_Final\\SSAS_HR_DT\\SSAS_HR_DT\\Dim Job Title.dim",
+              "RelativeDocumentMoniker": "SSAS_HR_DT\\Dim Job Title.dim",
+              "ToolTip": "D:\\UIT HK5\\OLAP\\SSAS_Final\\SSAS_HR_DT\\SSAS_HR_DT\\Dim Job Title.dim [Design]",
+              "RelativeToolTip": "SSAS_HR_DT\\Dim Job Title.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-19T08:18:10.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dim Department.dim [Design]",
+              "DocumentMoniker": "D:\\UIT HK5\\OLAP\\SSAS_Final\\SSAS_HR_DT\\SSAS_HR_DT\\Dim Department.dim",
+              "RelativeDocumentMoniker": "SSAS_HR_DT\\Dim Department.dim",
+              "ToolTip": "D:\\UIT HK5\\OLAP\\SSAS_Final\\SSAS_HR_DT\\SSAS_HR_DT\\Dim Department.dim [Design]",
+              "RelativeToolTip": "SSAS_HR_DT\\Dim Department.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-19T08:17:50.664Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="0e8a927e-5807-4456-9d82-faf799f5113f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>HR Data</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Fact HR</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="092f668c-1c91-4063-a1b3-c8bf1ef579c8">
+          <ID>Fact HR</ID>
+          <Name>Fact HR</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="61c17659-46aa-4b1a-b127-5a9526a25c4b">
+            <DataSourceViewID>HR Data</DataSourceViewID>
+            <TableID>dbo_Fact_HR</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <EstimatedRows>1097980</EstimatedRows>
+          <AggregationDesignID>AggregationDesign</AggregationDesignID>
+        </Partition>
+      </Partitions>
+      <AggregationDesigns>
+        <AggregationDesign>
+          <ID>AggregationDesign</ID>
+          <Name>AggregationDesign</Name>
+          <CreatedTimestamp>2025-10-20T02:18:16.713333Z</CreatedTimestamp>
+          <LastSchemaUpdate>2025-10-20T02:18:16.713333Z</LastSchemaUpdate>
+          <EstimatedRows>1097980</EstimatedRows>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>Dim Employee</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Employee ID</AttributeID>
+                  <EstimatedCount>1097980</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Full Name</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Dim Location</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Location ID</AttributeID>
+                  <EstimatedCount>4101</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>City</AttributeID>
+                  <EstimatedCount>4101</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Country</AttributeID>
+                  <EstimatedCount>235</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Dim Work Mode</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Work Mode ID</AttributeID>
+                  <EstimatedCount>2</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Work Mode Name</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Dim Date</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Date ID</AttributeID>
+                  <EstimatedCount>2052</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Full Date</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Day</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Month</AttributeID>
+                  <EstimatedCount>68</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Quarter</AttributeID>
+                  <EstimatedCount>23</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Year</AttributeID>
+                  <EstimatedCount>6</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Dim Job Title</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Job Title ID</AttributeID>
+                  <EstimatedCount>29</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Job Title Name</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Dim Status</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Status ID</AttributeID>
+                  <EstimatedCount>4</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Status Name</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Dim Department</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Department ID</AttributeID>
+                  <EstimatedCount>7</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Department Name</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+          <Aggregations>
+            <Aggregation>
+              <ID>Aggregation 0</ID>
+              <Name>Aggregation 0</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Dim Employee</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Location</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Work Mode</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Work Mode ID</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Date</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Job Title</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Status</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Status ID</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Department</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Department ID</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 1</ID>
+              <Name>Aggregation 1</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Dim Employee</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Location</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Work Mode</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Work Mode ID</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Date</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Month</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Job Title</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Status</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Status ID</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Department</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 2</ID>
+              <Name>Aggregation 2</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Dim Employee</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Location</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Work Mode</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Work Mode ID</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Date</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Job Title</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Job Title ID</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Status</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Status ID</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Department</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 3</ID>
+              <Name>Aggregation 3</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Dim Employee</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Location</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Work Mode</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Work Mode ID</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Date</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Year</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Job Title</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Status</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Department</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Department ID</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 4</ID>
+              <Name>Aggregation 4</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Dim Employee</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Location</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Work Mode</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Date</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Quarter</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Job Title</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Status</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Department</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Department ID</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 5</ID>
+              <Name>Aggregation 5</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Dim Employee</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Location</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Work Mode</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Date</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Year</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Job Title</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Status</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Status ID</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Department</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Department ID</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 6</ID>
+              <Name>Aggregation 6</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Dim Employee</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Location</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Work Mode</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Date</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Year</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Job Title</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Job Title ID</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Status</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Department</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 7</ID>
+              <Name>Aggregation 7</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Dim Employee</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Location</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Work Mode</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Date</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Job Title</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Job Title ID</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Status</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Department</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Department ID</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+          </Aggregations>
+        </AggregationDesign>
+      </AggregationDesigns>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

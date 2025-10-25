@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "SSAS_HR_DT", "SSAS_HR_DT\SSAS_HR_DT.dwproj", "{4C88088B-E118-1D0B-1421-6D5383100CF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C88088B-E118-1D0B-1421-6D5383100CF6}.Development|Default.ActiveCfg = Development
+		{4C88088B-E118-1D0B-1421-6D5383100CF6}.Development|Default.Build.0 = Development
+		{4C88088B-E118-1D0B-1421-6D5383100CF6}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84683CED-758A-4B74-B4D0-E0B1D1350ACF}
+	EndGlobalSection
+EndGlobal
